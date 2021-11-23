@@ -1,0 +1,21 @@
+﻿<Window x:Class="RoundGauge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoundGauge"
+        mc:Ignorable="d"
+        Title="RoundGuage" Height="400" Width="400" Background="ForestGreen">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <local:UCRoundGuage x:Name="RoundGuage" 
+                            Zwidth="230"
+                            Zheight="230"
+                            ZBorder="30"
+                            ZArrowWidth="10"
+                            ZSizeOfLabel="30"
+                            ZNumberOfLargeDegreeLines="8"
+                            ZNumberOfSmallDegreeLinesh="180"
+                            />
+        <Slider Name="slider" Minimum="0" Maximum="360" Width="300" VerticalAlignment="Top"  HorizontalAlignment="Center" Margin="40" ValueChanged="slider_ValueChanged"/>
+    </StackPanel>
+</Window>

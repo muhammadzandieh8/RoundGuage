@@ -1,0 +1,88 @@
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\bin\Debug\RoundGauge.exe.config
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\bin\Debug\RoundGauge.exe
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\bin\Debug\RoundGauge.pdb
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\MainWindow.g.cs
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\UCRoundGuage.g.cs
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\App.g.cs
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.cache
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.lref
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\MainWindow.baml
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\UCRoundGuage.baml
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.g.resources
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.Properties.Resources.resources
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.csproj.GenerateResource.cache
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.csproj.CoreCompileInputs.cache
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.exe
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.pdb
+C:\Users\m.zandieh\source\repos\RoundGauge\RoundGauge\obj\Debug\RoundGauge.csproj.AssemblyReference.cache
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\bin\Debug\RoundGauge.exe.config
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\bin\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\bin\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\MainWindow.g.cs
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\UCRoundGuage.g.cs
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\App.g.cs
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.cache
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.lref
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\MainWindow.baml
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\UCRoundGuage.baml
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.g.resources
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.Properties.Resources.resources
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.csproj.GenerateResource.cache
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.csproj.CoreCompileInputs.cache
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge\RoundGauge\obj\Debug\RoundGauge.csproj.AssemblyReference.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\bin\Debug\RoundGauge.exe.config
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\bin\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\bin\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\MainWindow.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\UCRoundGuage.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\App.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.lref
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\MainWindow.baml
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\UCRoundGuage.baml
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge.g.resources
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge.Properties.Resources.resources
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge.csproj.GenerateResource.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge.csproj.CoreCompileInputs.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge - V1\RoundGauge\obj\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\bin\Debug\RoundGauge.exe.config
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\bin\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\bin\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\MainWindow.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\UCRoundGuage.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\App.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.lref
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\MainWindow.baml
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\UCRoundGuage.baml
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge.g.resources
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge.Properties.Resources.resources
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge.csproj.GenerateResource.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge.csproj.CoreCompileInputs.cache
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge - V1 - Copy\RoundGauge\obj\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\bin\Debug\RoundGauge.exe.config
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\bin\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\bin\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\MainWindow.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\UCRoundGuage.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\App.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.cache
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge_MarkupCompile.lref
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\MainWindow.baml
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\UCRoundGuage.baml
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.g.resources
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.Properties.Resources.resources
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.csproj.GenerateResource.cache
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.csproj.CoreCompileInputs.cache
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.exe
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.pdb
+D:\Zandieh\RoundGauge\RoundGauge - Master\RoundGauge\obj\Debug\RoundGauge.csproj.AssemblyReference.cache
