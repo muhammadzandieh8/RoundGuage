@@ -8,10 +8,9 @@
         Title="RoundGuage" Height="400" Width="400" Background="ForestGreen">
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
         <local:UCRoundGuage x:Name="RoundGuage" 
-                            Zwidth="230"
-                            Zheight="230"
+                            ZSize="230"
                             ZBorder="30"
-                            ZArrowWidth="10"
+                            ZArrowWidth="4"
                             ZSizeOfLabel="30"
                             ZNumberOfLargeDegreeLines="8"
                             ZNumberOfSmallDegreeLinesh="180"

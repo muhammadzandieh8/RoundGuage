@@ -7,7 +7,6 @@
              Name="myUCRoundGuage"
              mc:Ignorable="d"
              Loaded="myUCRoundGuage_Loaded">
-    
     <StackPanel>
         <Grid>
             <Grid.ToolTip>
@@ -16,7 +15,7 @@
                     <TextBlock  FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center" Name="tooltiptext"  Text="{Binding Path= CurrentValue}"/>
                 </StackPanel>
             </Grid.ToolTip>
-            <Ellipse Name="EllipseMain" Width = "{Binding Path=Zwidth , ElementName=myUCRoundGuage}" Height = "{Binding Path=Zheight , ElementName=myUCRoundGuage}" >
+            <Ellipse Name="BackPlate" Width = "{Binding Path=ZSize , ElementName=myUCRoundGuage}" Height = "{Binding Path= ZSize, ElementName=myUCRoundGuage}" >
                 <Ellipse.Fill>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
                         <GradientStop Color="#FF5B5E66" Offset="1" />
@@ -32,7 +31,7 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
-            <Ellipse Name="BackEllipse">
+            <Ellipse Name="MainPlate">
                 <Ellipse.Fill>
                     <RadialGradientBrush>
                         <GradientStop Color="#FF0C7641" Offset="0.021"/>
@@ -41,8 +40,8 @@
                 </Ellipse.Fill>
             </Ellipse>
             <Canvas x:Name="MainCanvas" 
-                Width="{Binding Width,ElementName=BackEllipse}"
-                Height="{Binding Height,ElementName=BackEllipse}"/>
+                Width="{Binding  Width,ElementName=MainPlate}"
+                Height="{Binding Height,ElementName=MainPlate}"/>
             <Ellipse Name="BehindPin">
                 <Ellipse.Fill>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -59,7 +58,7 @@
                     <DropShadowEffect Color="#FFD36767" BlurRadius="10" ShadowDepth="2"  />
                 </Ellipse.Effect>
             </Ellipse>
-            <Border Name="Arrow" CornerRadius="10 10 120 120" 
+            <Border Name="Arrow" CornerRadius="2 2 400 400" 
                 VerticalAlignment="Center" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0" >
                 <Border.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

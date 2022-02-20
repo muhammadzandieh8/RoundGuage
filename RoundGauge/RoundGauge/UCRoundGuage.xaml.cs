@@ -24,30 +24,48 @@ namespace RoundGauge
     {
         #region Params
         public gaugeViewModel _GuageVM = new gaugeViewModel();
-        #region Zwidth
-        public int Zwidth
+        #region ZSize
+        public int ZSize
         {
-            get { return (int)GetValue(widthProperty); }
+            get { return (int)GetValue(ZSizeProperty); }
             set
             {
-                SetValue(widthProperty, value);
+                SetValue(ZSizeProperty, value);
                 myUCRoundGuage_Loaded(null, null);
             }
         }
-        public static DependencyProperty widthProperty = DependencyProperty.Register("Zwidth", typeof(int), typeof(UCRoundGuage), new FrameworkPropertyMetadata(230));
+        public static DependencyProperty ZSizeProperty = DependencyProperty.Register("ZSize", typeof(int), typeof(UCRoundGuage), new PropertyMetadata(230, OnChangeZSize));
+        private static void OnChangeZSize(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            var ct = d as UCRoundGuage;
+
+            ct.UpdateZSize((int)e.NewValue);
+        }
+        public void UpdateZSize(int _size)
+        {
+
+            MainPlate.Width = ZSize - ZBorder;
+            MainPlate.Height = ZSize - ZBorder;
+
+            Arrow.Width = ZArrowWidth;
+            Arrow.Height = MainPlate.Width / 2;
+            Arrow.Margin = new Thickness(0, Arrow.Height, 0, 0);
+
+            BehindPin.Width = MainPlate.Width / 8;
+            BehindPin.Height = MainPlate.Height / 8;
+
+            FrontPin.Width = MainPlate.Width / 10;
+            FrontPin.Height = MainPlate.Height / 10;
+
+            alio.CenterX = MainPlate.Width / 16;
+            alio.CenterY = MainPlate.Height / 16;
+
+
+            MainCanvas.Children.Clear();
+            BigDegreelLine();
+            SmalDegreelLine();
+        }
         #endregion Zwidth
-        #region Zheight
-        public int Zheight
-        {
-            get { return (int)GetValue(heightProperty); }
-            set
-            {
-                SetValue(heightProperty, value);
-                myUCRoundGuage_Loaded(null, null);
-            }
-        }
-        public static DependencyProperty heightProperty = DependencyProperty.Register("Zheight", typeof(int), typeof(UCRoundGuage), new FrameworkPropertyMetadata(230));
-        #endregion
         #region ZBorder
         public int ZBorder
         {
@@ -111,21 +129,21 @@ namespace RoundGauge
         #region Form Loaded
         private void myUCRoundGuage_Loaded(object sender, RoutedEventArgs e)
         {
-            BackEllipse.Width = Zwidth - ZBorder;
-            BackEllipse.Height = Zheight - ZBorder;
+            MainPlate.Width = ZSize - ZBorder;
+            MainPlate.Height = ZSize - ZBorder;
 
             Arrow.Width = ZArrowWidth;
-            Arrow.Height = BackEllipse.Width / 2;
+            Arrow.Height = MainPlate.Width / 2;
             Arrow.Margin = new Thickness(0, Arrow.Height, 0, 0);
 
-            BehindPin.Width = BackEllipse.Width / 8;
-            BehindPin.Height = BackEllipse.Height / 8;
+            BehindPin.Width = MainPlate.Width / 8;
+            BehindPin.Height = MainPlate.Height / 8;
 
-            FrontPin.Width = BackEllipse.Width / 10;
-            FrontPin.Height = BackEllipse.Height / 10;
+            FrontPin.Width = MainPlate.Width / 10;
+            FrontPin.Height = MainPlate.Height / 10;
 
-            alio.CenterX = BackEllipse.Width / 16;
-            alio.CenterY = BackEllipse.Height / 16;
+            alio.CenterX = MainPlate.Width / 16;
+            alio.CenterY = MainPlate.Height / 16;
 
             BigDegreelLine();
             SmalDegreelLine();
@@ -134,7 +152,7 @@ namespace RoundGauge
         #region BigDegreelLine
         private void BigDegreelLine()
         {
-            double radius = BackEllipse.Width / 2;
+            double radius = MainPlate.Width / 2;
 
             double min = 0; double max = ZNumberOfLargeDegreeLines;
             double step = 360.0 / (max - min);
@@ -142,7 +160,7 @@ namespace RoundGauge
 
             for (int i = 0; i < max - min; i++)
             {
-                radius = BackEllipse.Width / 2;
+                radius = MainPlate.Width / 2;
                 Line lineScale = new Line
                 {
                     X1 = ((radius - 20) * Math.Cos(i * step * Math.PI / 180)) + radius,
@@ -153,7 +171,7 @@ namespace RoundGauge
                     StrokeThickness = 4
                 };
                 #region Draw Number
-                radius = BackEllipse.Width / 2;
+                radius = MainPlate.Width / 2;
                 //radius -= 30;
                 double X1 = ((radius - 20 - ZSizeOfLabel) * Math.Sin(i * step * Math.PI / 180)) + radius;
                 double Y1 = ((radius - 20 - ZSizeOfLabel) * -Math.Cos(i * step * Math.PI / 180)) + radius;
@@ -178,7 +196,7 @@ namespace RoundGauge
         #region SmalDegreelLine
         private void SmalDegreelLine()
         {
-            double radius = BackEllipse.Width / 2;
+            double radius = MainPlate.Width / 2;
 
             double min = 0; double max = ZNumberOfSmallDegreeLinesh;
             double step = 360.0 / (max - min);
